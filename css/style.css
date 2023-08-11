@@ -1,0 +1,126 @@
+:root
+{
+    --mainfont : 'Roboto', sans-serif;
+    --maincolor : #1E202B;
+    --textcolor : #009ad8;
+    --headercolor : #2D303D;
+    --cardcolor: #323544;
+    --header2color : #222531;
+    --card2color : #262936
+}
+
+body
+{
+    font-family: var(--mainfont);
+    background-color: var(--maincolor);
+}
+
+.logo-capation
+{
+    font-size: 14px;
+    color: #fff;
+}
+.navbar
+{
+    background-color: var(--maincolor);
+}
+.nav-item .active
+{
+    color:var(--textcolor) !important;
+    border: 2px solid var(--textcolor) !important;
+    padding: 5px 25px;
+    border-radius: 30px;
+}
+.nav-link
+{
+    color: #fff !important;
+    border: 2px solid transparent !important;
+    padding: 5px 25px;
+    border-radius: 30px;
+    transition: all 1s ease;
+}
+.nav-link:hover
+{
+    border: 2px solid var(--textcolor) !important;
+}
+header
+{
+    background-color: var(--maincolor);
+
+}
+.image
+{
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-size: cover;
+    height: 50%;
+}
+.country
+{
+    background-color: var(--maincolor);
+    border: none;
+    outline: none;
+    color: #fff;
+}
+::placeholder
+{
+    color: gray;
+}
+.find
+{
+    padding: 5px 25px;
+    background-color: var(--textcolor);
+    right: 5px;
+}
+.find:hover
+{
+    background-color: var(--textcolor);
+}
+.card
+{
+    background-color: var(--cardcolor);
+    color: #fff;
+    border: none !important;
+}
+.card-body
+{
+    color: #fff !important;
+}
+.card-body .custom
+{
+    color: var(--textcolor) !important;
+}
+.card-header
+{
+    background-color: var(--headercolor) !important;
+}
+.headercolor
+{
+    background-color: var(--header2color) !important;
+}
+.bodycolor
+{
+    background-color: var(--card2color);
+}
+footer
+{
+    background-color: var(--cardcolor);
+}
+.icon
+{
+    background-color: var(--maincolor);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--textcolor);
+    margin-right: 10px;
+    transition: all 1s ease;
+}
+.icon:hover
+{
+    background-color: var(--textcolor);
+    color: #fff;
+}
